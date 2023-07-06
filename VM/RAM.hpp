@@ -2,7 +2,7 @@
 
 class RAM{
 private:
-
+    Stack<int> stk;
 public:
 
 };
