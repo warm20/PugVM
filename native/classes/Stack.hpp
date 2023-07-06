@@ -1,9 +1,9 @@
 template<typename T>
 class Stack{
-public:
+private:
     T stk;
     int top;
-private:
+public:
     void push(T v){
         this->stk[top++] = v;
     }
